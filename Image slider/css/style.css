@@ -1,0 +1,57 @@
+body {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url(../images/bcgImg.jpeg) center/cover no-repeat;
+}
+.images {
+  flex: 0 0 80%;
+  min-height: 70vh;
+  background: url(../images/bike-0.jpeg) center/cover no-repeat;
+  border-radius: 5px;
+  box-shadow: -webkit-box-shadow: 10px 10px 33px -2px rgba(0,0,0,0.75);
+-moz-box-shadow: 10px 10px 33px -2px rgba(0,0,0,0.75);
+box-shadow: 10px 10px 33px -2px rgba(0,0,0,0.75);
+position: relative;
+}
+
+.btn{
+ display: inline-block;
+ background:#F45B69;
+ color: #F6E8EA;
+ border: 3px solid #E26D5A;
+ font-size: 1.2rem;
+ padding: 0.5rem;
+ border-radius: 5px;
+ text-transform: uppercase;
+ outline: none;
+ font-weight: bold;
+ box-shadow: -webkit-box-shadow: 10px 10px 6px -3px rgba(0,0,0,0.75);
+-moz-box-shadow: 10px 10px 6px -3px rgba(0,0,0,0.75);
+box-shadow: 10px 10px 6px -3px rgba(0,0,0,0.75);
+}
+.prevBtn{
+ position: absolute;
+ top: 50%;
+ left: 0;
+ transform: translate(-50%, -50%);
+}
+
+.nextBtn{
+ position: absolute;
+ top: 50%;
+ right: 0;
+ transform: translate(50%, -50%);
+}
+
+.btn:active{
+ background: #B3B3B3;
+
+}
+.btn:hover{
+ background: #F13030;
+ color: #F6E8EA;
+ cursor: pointer;
+}

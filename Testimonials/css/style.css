@@ -1,0 +1,74 @@
+.max-height {
+  min-height: 100vh;
+  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+    url("../images/bgImage.jpg") center/cover no-repeat fixed;
+}
+
+.title-heading {
+  color: #cc3f10;
+}
+.title-subheading {
+  color: #fdecef;
+}
+.customer-card {
+  background: transparent !important;
+  color: #fdecef;
+  border: 0.05rem solid #fdecef;
+  padding-bottom: 1rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  position: relative;
+}
+
+.img-card {
+  border-radius: 50%;
+  margin-bottom: 1rem;
+  margin-top: -3rem;
+}
+.star-icon {
+  color: #cc3f10;
+}
+
+.quote-icon {
+  font-size: 2rem;
+  color: #cc3f10;
+}
+
+.prevBtn,
+.nextBtn {
+  font-size: 1.5rem;
+  padding: 0.1rem;
+  color: #cc3f10;
+  border: 0.1rem solid #cc3f10;
+  display: inline-block;
+  position: absolute;
+  padding: 0.4rem;
+  border-radius: 50%;
+  transition: all 1s ease-in-out;
+}
+
+.prevBtn:hover {
+  background: #cc3f10;
+  color: #fdecef;
+}
+
+.nextBtn:hover {
+  background: #cc3f10;
+  color: #fdecef;
+}
+
+.prevBtn {
+  top: 50%;
+  left: 0;
+  transform: translate(-120%, -50%);
+}
+
+.nextBtn {
+  top: 50%;
+  right: 0;
+  transform: translate(120%, -50%);
+}
+
+.review-icons {
+  padding-top: 10px;
+}

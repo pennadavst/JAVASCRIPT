@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Message passer</title>
+    <!-- bootstrap css -->
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <!-- google fonts -->
+    <link
+      href="https://fonts.googleapis.com/css?family=Tomorrow&display=swap"
+      rel="stylesheet"
+    />
+    <!-- main css -->
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <div class="container">
+    <div class="row max-height align-items-center">
+      <div class="col-10 mx-auto col-md-8 bg-light p-3">
+        <h4 class="text-uppercase">
+          Enter a message
+        </h4>
+        <form action="" id="message-form">
+          <input type="text" id="message" class="w-100 my-3 p-2" />
+          <input
+            type="submit"
+            id="submitBtn"
+            class="btn btn-lg btn-outline-success"
+          />
+        </form>
+        <h5 class="p-2 alert alert-danger my-3 text-capitalize feedback">
+          Please enter a message !!!
+        </h5>
+        <h4 class="text-capitalize my-3">last message delivered</h4>
+        <h4 class="message-content text-uppercase">
+          Hello people
+        </h4>
+      </div>
+    </div>
+  </div>
+  <body>
+    <!-- Jquery -->
+    <script src="js/jquery-3.4.1.min.js"></script>
+    <!-- bootstrap -->
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <!-- font awesome -->
+    <script
+      src="https://kit.fontawesome.com/a54f36be87.js"
+      crossorigin="anonymous"
+    ></script>
+    <!-- main js -->
+    <script src="js/script.js"></script>
+  </body>
+</html>

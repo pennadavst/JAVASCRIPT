@@ -1,0 +1,50 @@
+@import url("https://fonts.googleapis.com/css?family=Girassol&display=swap");
+
+:root {
+  --mainWhite: #f7f9f9;
+  --mainBlue: #6a7fdb;
+  --darkBlue: #274c77;
+}
+body {
+  background: var(--mainWhite);
+  font-family: "Girassol", cursive;
+}
+h3 {
+  letter-spacing: 0.5rem;
+}
+.input-group-text {
+  background: var(--mainBlue);
+  color: var(--mainWhite);
+  border-color: var(--mainBlue);
+}
+.form-control {
+  border: 0.2rem solid var(--mainBlue);
+}
+.submitBtn {
+  color: var(--darkBlue);
+  background: var(--mainWhite);
+  border: 0.2rem solid var(--darkBlue);
+  transition: all 1s ease-in-out;
+}
+.submitBtn:hover {
+  background: var(--darkBlue);
+  color: var(--mainWhite);
+}
+.fail {
+  border-color: #d90429;
+}
+.complete {
+  border-color: #45cb85;
+}
+.feedback {
+  display: none;
+}
+.loading {
+  display: none;
+}
+:disabled {
+  opacity: 0.2 !important;
+}
+.showItem {
+  display: block;
+}

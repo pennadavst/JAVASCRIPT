@@ -1,0 +1,25 @@
+.max-height {
+  min-height: 100vh;
+}
+
+.btn-container {
+  display: inline-block;
+  /* text-align: center; */
+  align-content: center;
+}
+body {
+  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.9)),
+    url("../images/bgImage.jpeg") center/cover fixed no-repeat;
+}
+.main-container {
+  border: 0.5px solid #fafecc;
+  box-shadow: 0 0.5rem 0rem rgba(0, 0, 0.9);
+  border-radius: 0.2rem;
+}
+#counter {
+  font-size: 10rem;
+  color: #fafecc;
+}
+h1 {
+  font-family: "Ibarra Real Nova", serif;
+}

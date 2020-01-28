@@ -1,0 +1,26 @@
+:root {
+  --mainWhite: #ffffff;
+  --green: #7cdf64;
+  --messageColor: #204e4a;
+}
+.max-height {
+  min-height: 100vh;
+}
+
+body {
+  background-color: var(--green);
+}
+
+.message-content {
+  color: var(--messageColor);
+}
+body {
+  font-family: "Tomorrow", sans-serif;
+  text-align: center;
+}
+.feedback {
+  display: none;
+}
+.show {
+  display: block;
+}

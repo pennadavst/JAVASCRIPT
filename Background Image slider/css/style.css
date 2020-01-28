@@ -1,0 +1,60 @@
+:root {
+  --bgColor: #ebebeb;
+  --bdColor: #e59500;
+}
+
+.max-height {
+  min-height: 100vh;
+}
+
+body {
+  background: var(--bgColor);
+}
+
+.img-container {
+  min-height: 60vh;
+  background: url("../images/img-1.jpeg") center/cover fixed no-repeat;
+  border: 0.1rem solid var(--bdColor);
+  border-radius: 0.5 rem;
+  position: relative;
+}
+
+@media screen and (min-width: 768px) {
+  .img-container {
+    min-height: 80vh;
+  }
+}
+
+.btn-left {
+  position: absolute;
+  top: 50%;
+  left: 0;
+  background: var(--bdColor);
+  color: var(--bgColor) !important;
+  transform: translate(-50%, -50%);
+  border: 0.1rem solid var(--bdColor);
+  font-size: 1rem;
+}
+
+.btn-left:hover {
+  border-color: var(--bdColor);
+  background: var(--bgColor);
+  color: var(--bdColor) !important;
+}
+
+.btn-right {
+  position: absolute;
+  top: 50%;
+  right: 0;
+  background: var(--bdColor);
+  color: var(--bgColor) !important;
+  transform: translate(50%, -50%);
+  border: 0.1rem solid var(--bdColor);
+  font-size: 1rem;
+}
+
+.btn-right:hover {
+  border-color: var(--bdColor);
+  background: var(--bgColor);
+  color: var(--bdColor) !important;
+}

@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Wikipedia search</title>
+    <!-- bootstrap css -->
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <!-- google fonts -->
+    <link
+      href="https://fonts.googleapis.com/css?family=Ibarra+Real+Nova&display=swap"
+      rel="stylesheet"
+    />
+    <!-- main css -->
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="row">
+        <div class="col">
+          <img
+            src="./images/wikipedia png.png"
+            class="img-fluid d-block mx-auto my-4"
+            width="200"
+            alt=""
+          />
+          <div class="feedback alert alert-danger text-capitalize text-center">
+            empty value
+          </div>
+          <form id="searchForm" class="my-3">
+            <div class="input-group">
+              <input
+                type="text"
+                class="form-control text-capitalize"
+                id="search"
+                placeholder="search wikipedia..."
+              />
+              <div class="input-group-append">
+                <button type="submit" class="text-capitalize blueBtn">
+                  search
+                </button>
+              </div>
+            </div>
+          </form>
+          <img src="images/loading.gif" class="loading" alt="" />
+        </div>
+      </div>
+    </div>
+    <div class="container">
+      <div class="row output">
+        <div class="col-10 mx-auto col-md-6 col-lg-4 my-3">
+          <div class="card card-body">
+            <h1 class="card-title blueText">title</h1>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam,
+              perferendis?
+            </p>
+            <a href="#" target="_blank" class="my-2 text-capitalize"
+              >read more...</a
+            >
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Jquery -->
+    <script src="js/jquery-3.4.1.min.js"></script>
+    <!-- bootstrap -->
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <!-- font awesome -->
+    <script
+      src="https://kit.fontawesome.com/a54f36be87.js"
+      crossorigin="anonymous"
+    ></script>
+    <!-- main js -->
+    <script src="js/script.js"></script>
+  </body>
+</html>
